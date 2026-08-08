@@ -3,7 +3,7 @@
 from datetime import datetime
 
 def add_note():
-    note=input("Enter your note: ")
+    note=input("Enter yours note: ")
     current_time = datetime.now()
     formatted_time = current_time.strftime("%d-%m-%Y %I:%M %p")
     a=open("note.txt",'a')
