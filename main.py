@@ -11,6 +11,7 @@ def add_note():
     a.write(f"[{formatted_time}] {note}\n")
     a.close()
     print("✅ Note Added Successfully")
+    print("Hello from Main")
     
 def view_notes():
     a = open("note.txt", "r")
